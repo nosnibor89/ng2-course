@@ -9,6 +9,9 @@ import { PropertyBindingComponent } from './databinding/property-binding.compone
 import { EventBindingComponent } from './databinding/event-binding.component';
 import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
 import { LifecycleComponent } from './lifecycle.component';
+import { HighlightDirective } from './directives/highlight.directive';
+import { UnlessDirective } from './directives/unless.directive';
+
 
 @NgModule({
   declarations: [
@@ -18,6 +21,8 @@ import { LifecycleComponent } from './lifecycle.component';
     EventBindingComponent,
     TwoWayBindingComponent,
     LifecycleComponent,
+    HighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
